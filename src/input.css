@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media only screen and (max-width:600px){
+      .header{
+            display: none;
+      }
+      .bar-icon{
+            display: block;
+      }
+}
+
+@media only screen and (max-width:580px){
+     .more-service{
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+     }
+}
+@media only screen and (max-width:510px){
+     .testimonal{
+      display: inline;
+     }
+     .footer{
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+     }
+}
+@media only screen and (max-width:500px){
+     .meet{
+      display: grid;
+      grid-template-columns: repeat( 1,1fr);
+     }
+}
+@media only screen and (max-width:465px){
+      .hero{
+            display: inline-flex;
+            line-height: 20px;
+      }
+      .hero-text{
+           font-size: 12px;
+      }
+      .getting{
+            display: grid;
+       grid-template-columns: repeat(1,1fr);
+       gap: 20px;
+      }
+}
+
+@media only screen and (max-width:420px){
+      .more-service{
+       display: grid;
+       grid-template-columns: repeat(1,1fr);
+      }
+ }
+
+@media only screen and (max-width:370px){
+      .footer{
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+           }
+ }
